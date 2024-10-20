@@ -1,1 +1,47 @@
 /* ini css */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url(../assets/logo.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+}
+
+nav>a {
+    border: 1px solid;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.foto-banner {
+    height: 250px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+
+.article {
+    height: 300px;
+}
+
+.message-container {
+    display: flex;
+}
+
+footer>div {
+    text-align: center;
+    font-family: cursive;
+    font-size: small;
+}
